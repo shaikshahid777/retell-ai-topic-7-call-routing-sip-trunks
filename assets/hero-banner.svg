@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Retell AI Topic 7 SIP trunking">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="glow" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="170" cy="70" r="90" fill="#38bdf8" opacity=".12" filter="url(#blur)">
+    <animate attributeName="r" values="70;105;70" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1010" cy="220" r="100" fill="#a78bfa" opacity=".11" filter="url(#blur)">
+    <animate attributeName="r" values="100;125;100" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#fff">
+    <text x="70" y="92" font-size="24" fill="#93c5fd">RETELL AI • TOPIC 7</text>
+    <text x="70" y="140" font-size="42" font-weight="700">Call Routing &amp; SIP Trunks</text>
+    <text x="70" y="178" font-size="17" fill="#cbd5e1">MicroSIP • SIP Registration • Retell AI Receptionist</text>
+  </g>
+  <g stroke="url(#glow)" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M760 85 C840 40, 900 40, 980 85">
+      <animate attributeName="stroke-dasharray" values="0 300;90 210;0 300" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M760 150 C840 105, 900 105, 980 150">
+      <animate attributeName="stroke-dasharray" values="0 300;90 210;0 300" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M760 215 C840 170, 900 170, 980 215">
+      <animate attributeName="stroke-dasharray" values="0 300;90 210;0 300" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(700,150)">
+      <rect x="-65" y="-35" width="130" height="70" rx="16" fill="#0f172a" stroke="#38bdf8"/>
+      <text y="5" fill="#e0f2fe" font-size="16">MicroSIP</text>
+    </g>
+    <g transform="translate(870,150)">
+      <rect x="-72" y="-35" width="144" height="70" rx="16" fill="#0f172a" stroke="#a78bfa"/>
+      <text y="0" fill="#ede9fe" font-size="15">SIP Trunk</text>
+      <text y="20" fill="#94a3b8" font-size="11">Provider required</text>
+    </g>
+    <g transform="translate(1050,150)">
+      <rect x="-72" y="-35" width="144" height="70" rx="16" fill="#0f172a" stroke="#38bdf8"/>
+      <text y="0" fill="#e0f2fe" font-size="15">Retell AI</text>
+      <text y="20" fill="#94a3b8" font-size="11">Voice Agent</text>
+    </g>
+  </g>
+</svg>
